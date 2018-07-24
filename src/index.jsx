@@ -327,7 +327,6 @@ export default class ImagesUploader extends Component {
 
 				let response = await fetch(url, {
 					method: 'POST',
-					credentials: 'include',
 					body: imageFormData,
 					headers: this.props.headers
 				});
